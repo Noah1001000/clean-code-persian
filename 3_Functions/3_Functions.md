@@ -1,5 +1,6 @@
 ## بخش های ترجمه نشده- ترجمه را با متن انگلیسی عوض کنید
-In the early days of programming we composed our systems of routines and subroutines.
+
+در اوایل برنامه نویسی ,ما سیستم های خود را از برنامه های عادی و زیرروالها تشکیل دادیم.
 Then, in the era of Fortran and PL/1 we composed our systems of programs, subprograms,
 and functions. Nowadays only the function survives from those early days. Functions are
 the first line of organization in any program. Writing them well is the topic of this chapter.
