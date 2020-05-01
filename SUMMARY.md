@@ -6,4 +6,4 @@
 * [1\_Clean Code](1_Clean_Code(completed)/README.md)
   * [فصل یک - کد تمیز](1_Clean_Code(completed)/clean-code.md)
 * [2\_Meaningful Names](2_meaningful-names/README.md)
-  * [فصل دو - اسامی با معنی](2_meaningful-names/meaningful names.md)
+  * [فصل دو - اسامی با معنی](2_meaningful-names/meaningful%20names.md)
