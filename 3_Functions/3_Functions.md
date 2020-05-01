@@ -1,6 +1,8 @@
 ## بخش های ترجمه نشده- ترجمه را با متن انگلیسی عوض کنید
 
 در اوایل برنامه نویسی ,ما سیستم های خود را از برنامه های عادی و زیرروالها تشکیل دادیم.
+سپس در عصر Fortran و PL/1 
+ما سیستم های برنامه  , زیر برنامه . توابع را تشکیل دادیم .  
 Then, in the era of Fortran and PL/1 we composed our systems of programs, subprograms,
 and functions. Nowadays only the function survives from those early days. Functions are
 the first line of organization in any program. Writing them well is the topic of this chapter.
