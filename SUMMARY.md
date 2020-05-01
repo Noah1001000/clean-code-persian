@@ -8,4 +8,4 @@
 * [1\_Clean Code](1_Clean_Code/README.md)
   * [فصل یک - کد تمیز](1_Clean_Code/clean-code.md)
 * [2\_Meaningful Names](2_meaningful-names/README.md)
-  * [فصل دو - اسامی با معنی](2_meaningful-names/fsl-dw-asamy-ba-many.md)
+  * [فصل دو - اسامی با معنی](2_meaningful-names/meaningful names.md)
