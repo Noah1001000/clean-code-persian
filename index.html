@@ -4,22 +4,20 @@ layout: default
 
 <!-- cover -->
 
-World Classics Series
-
-<h1>{{ site.title }}</h1>
+<h1 dir="rtl" style="text-align:right;">{{ site.title }}</h1>
 <h3>by {{ site.author.name }}</h3>
 
 
 
 <!-- table of contents -->
 
-<div class='toc'>
+<div dir="rtl" style="text-align:right;" class='toc'>
 
-Contents
+محتوا:
 
 <ul>
 {% for chapter in site.chapters %}
-  <li>{{ chapter.title }}</li>
+  <li dir="rtl" style="text-align:right;" >{{ chapter.title }}</li>
 {% endfor %}
 </ul>
 
