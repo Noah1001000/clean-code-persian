@@ -1,0 +1,32 @@
+###########
+# site.title, site.author.name
+
+title:  کد تمیز
+author:
+  name: رابرت سسیل مارتین
+
+
+########
+# more settings
+
+collections:
+  chapters:
+      output: false
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false

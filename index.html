@@ -1,0 +1,39 @@
+---
+layout: default 
+---
+
+<!-- cover -->
+
+World Classics Series
+
+<h1>{{ site.title }}</h1>
+<h3>by {{ site.author.name }}</h3>
+
+
+
+<!-- table of contents -->
+
+<div class='toc'>
+
+Contents
+
+<ul>
+{% for chapter in site.chapters %}
+  <li>{{ chapter.title }}</li>
+{% endfor %}
+</ul>
+
+</div>
+
+
+<!-- chapters -->
+
+{% for chapter in site.chapters %}
+
+<div class='chapter'>
+  <h2>{{ chapter.title }}</h2>
+
+  {{ chapter.content }}
+</div>
+
+{% endfor %}

@@ -1,0 +1,118 @@
+---
+### note: will result in an all-in-one-file stylesheet e.g. style.css
+---
+
+
+@import 'settings';
+
+
+html {
+  font-family: $font-family;
+  font-size:   20px;
+  line-height: 1.5;
+}
+
+body {
+  color:            $body-color;
+  background-color: $body-background-color;
+}
+
+//////////////
+// Links
+
+a {
+  color:           $link-color;
+  text-decoration: none;
+
+  strong {
+    color: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+
+////////////////////////////
+// Headings
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom:  .5rem;
+  font-weight:    bold;
+  line-height:    1.25;
+  color:          $headings-color;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/////////////
+// Body text
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: $strong-color;
+}
+
+
+/////////////
+// Lists
+
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/////////////////////
+// Quotes
+
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: $blockquote-color;
+  border-left: .25rem solid $blockquote-border-color;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+
+////////////////////////////////
+//  Container
+//   -- centers page content
+
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
