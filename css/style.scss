@@ -114,6 +114,10 @@ img {
   direction:ltr;
   text-align:left;
 }
+
+/*code */
+code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}code,kbd,pre,samp{font-family:Menlo,Monaco,Consolas,"Courier New",monospace}code{padding:.2rem .4rem;font-size:90%;color:#bd4147;background-color:#f7f7f9}kbd{padding:.2rem .4rem;font-size:90%;color:#fff;background-color:#333}kbd kbd{padding:0;font-size:100%;font-weight:bold}pre{display:block;margin-top:0;margin-bottom:1rem;font-size:90%;line-height:1.5;color:#373a3c}pre code{padding:0;font-size:inherit;color:inherit;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}pre,code{background:#242a3a;color:#cccccc;font-size:.75rem}code{word-break:break-all;white-space:normal}pre{overflow:auto;padding:8px}pre code{white-space:pre;overflow:auto;word-wrap:normal}pre code span{word-break:break-all}
+
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #999; } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
