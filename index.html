@@ -29,7 +29,7 @@ layout: default
 {% for chapter in site.chapters %}
 
 <div dir="auto" style="text-align:right;" class='chapter'>
-  <h2 dir="rtl" style="text-align:right;">{{ chapter.title }}</h2>
+  <h1 dir="rtl" style="text-align:right;" id="{{ chapter.title | replace: ' ', '-' }}">{{ chapter.title }}</h1>
 
   {{ chapter.content }}
 </div>
