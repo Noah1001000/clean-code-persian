@@ -17,7 +17,7 @@ layout: default
 
 <ul>
 {% for chapter in site.chapters %}
-  <li dir="rtl" style="text-align:right;" >{{ chapter.title }}</li>
+  <li dir="rtl" style="text-align:right;" ><a href="#{{ chapter.title | replace: ' ', '-' }}">{{ chapter.title }}</a></li>
 {% endfor %}
 </ul>
 
