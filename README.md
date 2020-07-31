@@ -19,9 +19,9 @@
  
  ## بخش های ترجمه شده
 
-* [0_مقدمه](0_introduction(completed)/introduction.md)
-  * [0_مقدمه](0_introduction(completed)/introduction.md)
-* [1_کد تمیز](1_Clean_Code(completed)/clean-code.md)
+* [0_مقدمه](/_chapters/01.md)
+  * [0_مقدمه](/_chapters/01.md)
+* [1_کد تمیز](/_chapters/02.md)
 
   * [کد همیشه وجود خواهد داشت](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%DA%A9%D8%AF-%D9%87%D9%85%DB%8C%D8%B4%D9%87-%D9%88%D8%AC%D9%88%D8%AF-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA)
   
