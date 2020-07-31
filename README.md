@@ -23,61 +23,61 @@
   * [0_مقدمه](/_chapters/01.md)
 * [1_کد تمیز](/_chapters/02.md)
 
-  * [کد همیشه وجود خواهد داشت](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%DA%A9%D8%AF-%D9%87%D9%85%DB%8C%D8%B4%D9%87-%D9%88%D8%AC%D9%88%D8%AF-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA)
+  * [کد همیشه وجود خواهد داشت](/_chapters/02.md#%DA%A9%D8%AF-%D9%87%D9%85%DB%8C%D8%B4%D9%87-%D9%88%D8%AC%D9%88%D8%AF-%D8%AE%D9%88%D8%A7%D9%87%D8%AF-%D8%AF%D8%A7%D8%B4%D8%AA)
   
-  * [کد بد](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%DA%A9%D8%AF-%D8%A8%D8%AF)
+  * [کد بد](/_chapters/02.md#%DA%A9%D8%AF-%D8%A8%D8%AF)
   
-  * [هزینه کلی مالک یک شلختگی بودن](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D9%84%DB%8C-%D9%85%D8%A7%D9%84%DA%A9-%DB%8C%DA%A9-%D8%B4%D9%84%D8%AE%D8%AA%DA%AF%DB%8C-%D8%A8%D9%88%D8%AF%D9%86)
+  * [هزینه کلی مالک یک شلختگی بودن](/_chapters/02.md#%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D9%84%DB%8C-%D9%85%D8%A7%D9%84%DA%A9-%DB%8C%DA%A9-%D8%B4%D9%84%D8%AE%D8%AA%DA%AF%DB%8C-%D8%A8%D9%88%D8%AF%D9%86)
   
-  * [طراحی مجدد بزرگ در اسمان](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%85%D8%AC%D8%AF%D8%AF-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%AF%D8%B1-%D8%A7%D8%B3%D9%85%D8%A7%D9%86)
+  * [طراحی مجدد بزرگ در اسمان](/_chapters/02.md#%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D9%85%D8%AC%D8%AF%D8%AF-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%AF%D8%B1-%D8%A7%D8%B3%D9%85%D8%A7%D9%86)
   
-  * [نگرش](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D9%86%DA%AF%D8%B1%D8%B4)
+  * [نگرش](/_chapters/02.md#%D9%86%DA%AF%D8%B1%D8%B4)
   
-  * [مسئله بغرنج اصلی](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%A8%D8%BA%D8%B1%D9%86%D8%AC-%D8%A7%D8%B5%D9%84%DB%8C)
+  * [مسئله بغرنج اصلی](/_chapters/02.md#%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%A8%D8%BA%D8%B1%D9%86%D8%AC-%D8%A7%D8%B5%D9%84%DB%8C)
   
-  * [هنر کد تمیز؟](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D9%87%D9%86%D8%B1-%DA%A9%D8%AF-%D8%AA%D9%85%DB%8C%D8%B2)
+  * [هنر کد تمیز؟](/_chapters/02.md#%D9%87%D9%86%D8%B1-%DA%A9%D8%AF-%D8%AA%D9%85%DB%8C%D8%B2)
   
-  * [کد تمیز چیست؟](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%DA%A9%D8%AF-%D8%AA%D9%85%DB%8C%D8%B2-%DA%86%DB%8C%D8%B3%D8%AA)
+  * [کد تمیز چیست؟](/_chapters/02.md#%DA%A9%D8%AF-%D8%AA%D9%85%DB%8C%D8%B2-%DA%86%DB%8C%D8%B3%D8%AA)
   
-  * [مکتب فکری!](https://github.com/Noah1001000/clean-code-persian/blob/master/1_Clean_Code(completed)/clean-code.md#%D9%85%DA%A9%D8%AA%D8%A8-%D9%81%DA%A9%D8%B1%DB%8C)
-* [2\_اسامی با معنی](2_meaningful-names(completed)/meaningful-names.md)
+  * [مکتب فکری!](/_chapters/02.md#%D9%85%DA%A9%D8%AA%D8%A8-%D9%81%DA%A9%D8%B1%DB%8C)
+* [2\_اسامی با معنی](/_chapters/03.md)
 
-  * [استفاده از اسم‌های بیان کننده منظور (Intention-Revealing Names)](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A7%D8%B3%D9%85%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D8%A7%D9%86-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D9%85%D9%86%D8%B8%D9%88%D8%B1-intention-revealing-names)
+  * [استفاده از اسم‌های بیان کننده منظور (Intention-Revealing Names)](/_chapters/03.md#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A7%D8%B3%D9%85%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D8%A7%D9%86-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D9%85%D9%86%D8%B8%D9%88%D8%B1-intention-revealing-names)
   
-  * [خودداری از دادن اطلاعات اشتباه](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%A7%D8%AF%D9%86-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87)
+  * [خودداری از دادن اطلاعات اشتباه](/_chapters/03.md#%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%A7%D8%AF%D9%86-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%87)
   
-  * [تفاوت‌های با معنی ایجاد کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%AA%D9%81%D8%A7%D9%88%D8%AA%D9%87%D8%A7%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D9%86%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [تفاوت‌های با معنی ایجاد کنید](/_chapters/03.md#%D8%AA%D9%81%D8%A7%D9%88%D8%AA%D9%87%D8%A7%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D9%86%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [از اسم‌های قابل تلفظ استفاده کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D8%A7%D8%B3%D9%85%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%D8%A8%D9%84-%D8%AA%D9%84%D9%81%D8%B8-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از اسم‌های قابل تلفظ استفاده کنید](/_chapters/03.md#%D8%A7%D8%B2-%D8%A7%D8%B3%D9%85%D9%87%D8%A7%DB%8C-%D9%82%D8%A7%D8%A8%D9%84-%D8%AA%D9%84%D9%81%D8%B8-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [از اسامی قابل جستجو استفاده کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D8%A7%D8%B3%D8%A7%D9%85%DB%8C-%D9%82%D8%A7%D8%A8%D9%84-%D8%AC%D8%B3%D8%AA%D8%AC%D9%88-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از اسامی قابل جستجو استفاده کنید](/_chapters/03.md#%D8%A7%D8%B2-%D8%A7%D8%B3%D8%A7%D9%85%DB%8C-%D9%82%D8%A7%D8%A8%D9%84-%D8%AC%D8%B3%D8%AA%D8%AC%D9%88-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [از رمزگذاری خودداری کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D8%B1%D9%85%D8%B2%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از رمزگذاری خودداری کنید](/_chapters/03.md#%D8%A7%D8%B2-%D8%B1%D9%85%D8%B2%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [نمادگذاری مجارستانی](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D9%86%D9%85%D8%A7%D8%AF%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%85%D8%AC%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86%DB%8C)
+  * [نمادگذاری مجارستانی](/_chapters/03.md#%D9%86%D9%85%D8%A7%D8%AF%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%85%D8%AC%D8%A7%D8%B1%D8%B3%D8%AA%D8%A7%D9%86%DB%8C)
   * [پیشوندهای متغیر](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D9%BE%DB%8C%D8%B4%D9%88%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%AA%D8%BA%DB%8C%D8%B1)
   
-  * [واسط‌ها (interface) و پیاده‌سازی‌ها](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D9%88%D8%A7%D8%B3%D8%B7%D9%87%D8%A7-interface-%D9%88-%D9%BE%DB%8C%D8%A7%D8%AF%D9%87%D8%B3%D8%A7%D8%B2%DB%8C%D9%87%D8%A7)
+  * [واسط‌ها (interface) و پیاده‌سازی‌ها](/_chapters/03.md#%D9%88%D8%A7%D8%B3%D8%B7%D9%87%D8%A7-interface-%D9%88-%D9%BE%DB%8C%D8%A7%D8%AF%D9%87%D8%B3%D8%A7%D8%B2%DB%8C%D9%87%D8%A7)
   
-  * [از نگاشت ذهنی خودداری کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D9%86%DA%AF%D8%A7%D8%B4%D8%AA-%D8%B0%D9%87%D9%86%DB%8C-%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از نگاشت ذهنی خودداری کنید](/_chapters/03.md#%D8%A7%D8%B2-%D9%86%DA%AF%D8%A7%D8%B4%D8%AA-%D8%B0%D9%87%D9%86%DB%8C-%D8%AE%D9%88%D8%AF%D8%AF%D8%A7%D8%B1%DB%8C-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [نام کلاس‌ها](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D9%86%D8%A7%D9%85-%DA%A9%D9%84%D8%A7%D8%B3%D9%87%D8%A7)
+  * [نام کلاس‌ها](/_chapters/03.md#%D9%86%D8%A7%D9%85-%DA%A9%D9%84%D8%A7%D8%B3%D9%87%D8%A7)
   
-  * [نام متدها](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D9%86%D8%A7%D9%85-%D9%85%D8%AA%D8%AF%D9%87%D8%A7)
+  * [نام متدها](/_chapters/03.md#%D9%86%D8%A7%D9%85-%D9%85%D8%AA%D8%AF%D9%87%D8%A7)
   
-  * [بانمک نباشید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A8%D8%A7%D9%86%D9%85%DA%A9-%D9%86%D8%A8%D8%A7%D8%B4%DB%8C%D8%AF)
+  * [بانمک نباشید](/_chapters/03.md#%D8%A8%D8%A7%D9%86%D9%85%DA%A9-%D9%86%D8%A8%D8%A7%D8%B4%DB%8C%D8%AF)
   
-  * [برای هر مفهوم یک کلمه انتخاب کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A8%D8%B1%D8%A7%DB%8C-%D9%87%D8%B1-%D9%85%D9%81%D9%87%D9%88%D9%85-%DB%8C%DA%A9-%DA%A9%D9%84%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [برای هر مفهوم یک کلمه انتخاب کنید](/_chapters/03.md#%D8%A8%D8%B1%D8%A7%DB%8C-%D9%87%D8%B1-%D9%85%D9%81%D9%87%D9%88%D9%85-%DB%8C%DA%A9-%DA%A9%D9%84%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [با ایهام ننویسید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A8%D8%A7-%D8%A7%DB%8C%D9%87%D8%A7%D9%85-%D9%86%D9%86%D9%88%DB%8C%D8%B3%DB%8C%D8%AF)
+  * [با ایهام ننویسید](/_chapters/03.md#%D8%A8%D8%A7-%D8%A7%DB%8C%D9%87%D8%A7%D9%85-%D9%86%D9%86%D9%88%DB%8C%D8%B3%DB%8C%D8%AF)
   
-  * [از دامنه واژگان مربوط به راه حل استفاده کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D8%AF%D8%A7%D9%85%D9%86%D9%87-%D9%88%D8%A7%DA%98%DA%AF%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B1%D8%A7%D9%87-%D8%AD%D9%84-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از دامنه واژگان مربوط به راه حل استفاده کنید](/_chapters/03.md#%D8%A7%D8%B2-%D8%AF%D8%A7%D9%85%D9%86%D9%87-%D9%88%D8%A7%DA%98%DA%AF%D8%A7%D9%86-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B1%D8%A7%D9%87-%D8%AD%D9%84-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [از دامنه واژگان صورت مسئله استفاده کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%A7%D8%B2-%D8%AF%D8%A7%D9%85%D9%86%D9%87-%D9%88%D8%A7%DA%98%DA%AF%D8%A7%D9%86-%D8%B5%D9%88%D8%B1%D8%AA-%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [از دامنه واژگان صورت مسئله استفاده کنید](/_chapters/03.md#%D8%A7%D8%B2-%D8%AF%D8%A7%D9%85%D9%86%D9%87-%D9%88%D8%A7%DA%98%DA%AF%D8%A7%D9%86-%D8%B5%D9%88%D8%B1%D8%AA-%D9%85%D8%B3%D8%A6%D9%84%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [ساختارهای با معنی اضافه کنید](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D9%86%DB%8C-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
+  * [ساختارهای با معنی اضافه کنید](/_chapters/03.md#%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D9%86%DB%8C-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D9%86%DB%8C%D8%AF)
   
-  * [سخن پایانی](https://github.com/Noah1001000/clean-code-persian/blob/master/2_meaningful-names(completed)/meaningful-names.md#%D8%B3%D8%AE%D9%86-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%DB%8C)
+  * [سخن پایانی](/_chapters/03.md#%D8%B3%D8%AE%D9%86-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%DB%8C)
   
 
 </div>
