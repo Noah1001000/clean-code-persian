@@ -305,36 +305,25 @@ showed you just the sequence above, you’d ask yourself: “What happened to
 includeTeardownPages , includeSuiteTeardownPage , and includeTeardownPage ?” How’s that
 for being “. . . pretty much what you expected.”
 
-## Function Arguments
-The ideal number of arguments for a function is
-zero (niladic). Next comes one (monadic), followed
-closely by two (dyadic). Three arguments (triadic)
-should be avoided where possible. More than three
-(polyadic) requires very special justification—and
-then shouldn’t be used anyway.
-Arguments are hard. They take a lot of con-
-ceptual power. That’s why I got rid of almost all of
-them from the example. Consider, for instance, the
-StringBuffer in the example. We could have
-passed it around as an argument rather than mak-
-ing it an instance variable, but then our readers
-would have had to interpret it each time they saw
-it. When you are reading the story told by the
-module, includeSetupPage() is easier to understand than includeSetupPageInto(newPage-
-Content) . The argument is at a different level of abstraction than the function name and
-forces you to know a detail (in other words, StringBuffer ) that isn’t particularly important
-at that point.
-Arguments are even harder from a testing point of view. Imagine the difficulty of
-writing all the test cases to ensure that all the various combinations of arguments work
-properly. If there are no arguments, this is trivial. If there’s one argument, it’s not too hard.
-With two arguments the problem gets a bit more challenging. With more than two argu-
-ments, testing every combination of appropriate values can be daunting. Output arguments are harder to understand than input arguments. When we read a
-function, we are used to the idea of information going in to the function through arguments
-and out through the return value. We don’t usually expect information to be going out
-through the arguments. So output arguments often cause us to do a double-take.
-One input argument is the next best thing to no arguments. SetupTeardown-
-Includer.render(pageData) is pretty easy to understand. Clearly we are going to render the
-data in the pageData object.
+## متغیرهای تابع
+تعداد متغیرهای ایده آل برای یک تابع، صفر بعد از آن یک و سپس دو متغیر است.
+تا جایی که امکان دارد باید از ایجاد توابع سه متغیره اجتناب کرد.
+ایجاد توابع بیش از سه متغیره احتیاج به دلیل و توجیه قانع کننده‌ای دارد و به هیج وجه نباید از آن استفاده کرد.
+متغیرها نامطبوع هستند. آنها از قدرت مفهومی زیادی استفاده می‌کنند. به همین دلیل از آنها مثالی نزدم.
+به عنوان مثال، StringBuffer را در نظر بگیرید. مامی‌توانستیم آن را به عنوان یک متغیر تابع به جای ایجاد یک متغیر در نظر بگیریم.
+اما خوانندگان ما هر بار که آن را می‌دیدند، مجبور بودند تا آن را تفسیر کنند.
+زمانی که شما در حال خواندن ماژول‌ها هستید، متد includeSetupPage() را بهتر از متد includeSetupPageInto(newPage- Content) درک می‌کنید.
+متغیر یک تابع در یک سطح متفاوت معنایی از نام آن تابع می‌باشد. و شما را محبور می‌کند تا جزئیاتی را بدانید که از اهمیت ویژه‌ای برخوردار نیستند.
+متغیرها حتی در تست نویسی هم باعث ایجاد دردسر می‌شوند. سختی نوشتن تست برای تمامی حالات، برای متغیرهای یک تابع را در نظر بگیرید، که باید مطمئن شوید به درستی کار می‌کند.
+اگر متغیری وجود نداشته باشد، این موارد جزئی هستند و کار را خیلی سخت نمی‌کنند.
+با دو متغیر، مشکل‌تان کمی چالش برانگیز خواهد بود.
+برای توابع با بیشتر از دو متغیر، تست نویسی برای هر ترکیب از آن می‌تواند ترسناک باشد.
+درک متغیرهای خروجی از متغیرهای ورودی سخت‌تر است.
+ما به ایده وارد کردن اطلاعات از طریق متغیرهای تابع و دریافت مقدار خروجی از آن عادت کرده‌ایم.
+ما معمولا عادت نداریم که اطلاعات از طریق آرگومان‌ها خارج شوند. بنابراین آرگومان‌های خروجی باعث می‌شوند تا دوبار انجام دهیم.
+یک تابع با یک متغیر ورودی بهترین مورد بعد از یک تابع بدون متغیر ورودی است.
+SetupTeardownIncluder. درک render(pageData) بسیار آسان است. کاملا واضح است که ما قصد داریم تا اطلاعات را در شیء pageData ارائه کنیم.
+
 
 ## Common Monadic Forms
 There are two very common reasons to pass a single argument into a function. You may be
