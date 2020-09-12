@@ -271,15 +271,12 @@ But keep in mind the rest of the advice in this chapter. Javadocs can be just as
 nonlocal, and dishonest as any other kind of comment.
 
 # Bad Comments
-Most comments fall into this category. Usually they are crutches or excuses for poor code
-or justifications for insufficient decisions, amounting to little more than the programmer
-talking to himself.
+اکثر کامنت ها در این بخش قرار میگیرند. معمولا آنها دستاویز و بهانه هایی برای کد ضعیف هستند
+یا توجیهاتی برای تصمیمات ناکافی, مقداری کم و بیش از صحبت های برنامه نویس با خودش.
 ## Mumbling
-Plopping in a comment just because you feel you should or because the process requires it,
-is a hack. If you decide to write a comment, then spend the time necessary to make sure it
-is the best comment you can write.
-Here, for example, is a case I found in FitNesse, where a comment might indeed have
-been useful. But the author was in a hurry or just not paying much attention. His mum-
+دست و پا زدن در یک کامنت به دلیل اینکه احساس میکنید باید این کار را انجام دهید یا بدلیل اینکه روند کار به آن احتیاج دارد,
+یک هک محسوب میشود. اگر تصمیم دارید یک کامنت بنویسید, وقت کافی برای اطمینان از اینکه بهرین کامنتی است که مینویسید صرف کنید.
+اینجا, برای مثال, موردی است که من در FitNesse پیدا کردم, جایی که ممکن است براستی کامنت مفید واقع شده باشد. اما نویسنده ممکن است عجله داشته یا توجه کافی به خرج نداده است. His mum-
 bling left behind an enigma:
 
 ```java
@@ -298,10 +295,7 @@ public void loadProperties()
 }
 ```
 
-What does that comment in the catch block mean? Clearly it meant something to the
-author, but the meaning does not come through all that well. Apparently, if we get an
-IOException , it means that there was no properties file; and in that case all the defaults are
-loaded. But who loads all the defaults? Were they loaded before the call to
+کامنت موجود در بلوک catch به معنا میباشد? مشخصا مربوط به نویسنده میباشد, اما معنی به خوبی بیان نشده است. ظاهرا, اگر ما یک IOException بگیریم , بدان معنی است که هیچ پرونده ای وجود ندارد; و در این حالت همه پیشفرض ها هستند. But who loads all the defaults? Were they loaded before the call to
 loadProperties.load ? Or did loadProperties.load catch the exception, load the defaults,
 and then pass the exception on for us to ignore? Or did loadProperties.load load all the
 defaults before attempting to load the file? Was the author trying to comfort himself about
