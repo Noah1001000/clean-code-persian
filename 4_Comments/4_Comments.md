@@ -109,10 +109,7 @@ Pattern timeMatcher = Pattern.compile(
 </div>
 
 ## شرح نیت
-Sometimes a comment goes beyond just useful information about the implementation and
-provides the intent behind a decision. In the following case we see an interesting decision
-documented by a comment. When comparing two objects, the author decided that he
-wanted to sort objects of his class higher than objects of any other.
+گاهی یک کامنت از اطلاعات مفید درباره پیاده سازی  فراتر می رود و نیتی که پشت یک تصمیم بوده است را بیان می کند. در این نمونه می بینیم که یک تصمیم جالب با یک کامنت مستندسازی شده است. نویسنده تصمیم گرفته است هنگام مقایسه دو شئ، اشیاء کلاس خودش را بالاتر از اشیاء دیگران قرار دهد.
 
 ```java
 public int compareTo(Object o)
@@ -127,9 +124,7 @@ public int compareTo(Object o)
 	return 1; // we are greater because we are the right type.
 }
 ```
-
-Here’s an even better example. You might not agree with the programmer’s solution to
-the problem, but at least you know what he was trying to do.
+اینجا یک مثال بهتر داریم. ممکن است شما با راه حل برنامه نویس برای مسئله موافق نباشید، اما حداقل می دانید او تلاش می کند چه کاری انجام دهد.
 
 ```java
 public void testConcurrentAddWidgets() throws Exception {
@@ -153,10 +148,7 @@ public void testConcurrentAddWidgets() throws Exception {
 ```
 
 ## شفاف سازی
-Sometimes it is just helpful to translate the meaning of some obscure argument or return
-value into something that’s readable. In general it is better to find a way to make that argu-
-ment or return value clear in its own right; but when its part of the standard library, or in
-code that you cannot alter, then a helpful clarifying comment can be useful.
+برخی اوقات ترجمه معنای بعضی آرگومان های مبهم یا مقدار بازگشتی به چیزی که خواناتر است خیلی کمک کننده است. به طور کلی پیدا کردن راهی برای شفاف سازی آن آرگومان یا مقدار بازگشتی به خودی خود بهتر است؛ اما وقتی این بخشی از کتابخانه استاندارد است، یا در کدی قراردارد که شما نمی توانید آن را اصلاح کنید، آنگاه یک کامنت شفاف ساز کمک کننده می تواند مفید باشد.
 
 ```java
 public void testCompareTo() throws Exception
@@ -178,11 +170,7 @@ public void testCompareTo() throws Exception
 	assertTrue(bb.compareTo(ba) == 1);     // bb > ba
 }
 ```
-There is a substantial risk, of course, that a clarifying comment is incorrect. Go
-through the previous example and see how difficult it is to verify that they are correct. This
-explains both why the clarification is necessary and why it’s risky. So before writing com-
-ments like this, take care that there is no better way, and then take even more care that they
-are accurate.
+البته در اینجا یک ریسک مهم وجود دارد، که یک کامنت شفاف ساز نادرست است. به مثال قبل بروید و ببینید تایید درستی آنها چقدر دشوار است. این مشخص می کند که چرا شفاف سازی ضروری است و چرا همراه با ریسک است. بنابراین قبل از نوشتن کامنت های اینچنین، مراقب باشید که راه بهتری وجود نداشته باشد، و سپس مراقبت بیشتری داشته باشید که آن ها صحیح هستند.
 
 <p align="center">
   <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/4_Comments/img-4.2.png"/>
