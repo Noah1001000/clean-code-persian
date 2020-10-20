@@ -1,24 +1,18 @@
 ![](img-8.1.png) 
 
-We seldom control all the software in our systems. Sometimes we buy third-party pack-
-ages or use open source. Other times we depend on teams in our own company to produce
-components or subsystems for us. Somehow we must cleanly integrate this foreign code with our own. In this chapter we look at practices and techniques to keep the boundaries of
-our software clean.
-# Using Third-Party Code
-There is a natural tension between the provider of an interface and the user of an interface.
-Providers of third-party packages and frameworks strive for broad applicability so they
-can work in many environments and appeal to a wide audience. Users, on the other hand,
-want an interface that is focused on their particular needs. This tension can cause problems
-at the boundaries of our systems.
-Let’s look at java.util.Map as an example. As you can see by examining Figure 8-1,
-Maps have a very broad interface with plenty of capabilities. Certainly this power and flexi-
-bility is useful, but it can also be a liability. For instance, our application might build up a
-Map and pass it around. Our intention might be that none of the recipients of our Map delete
-anything in the map. But right there at the top of the list is the clear() method. Any user of
-the Map has the power to clear it. Or maybe our design convention is that only particular
-types of objects can be stored in the Map, but Maps do not reliably constrain the types of
-objects placed within them. Any determined user can add items of any type to any Map.
+# Boundaries(مرز ها)
 
+by James Grenning(از جیمز گرنینگ)
+ما به ندرت تمام نرم افزار های موجود در سیستم های خود را نظارت می کنیم.بعضی وقت ها ما سومین بخش بسته را می خریم یا از منبع باز استفاده می کنیم. در مواقعی ما برای تولید یکسری تیم برای شرکت خود نیاز داریم.
+اجزاء و زیرسیستم.به نوعی باید این کد خارجی را از نزدیک ادغام کنیم.
+
+# Using Third-Party Code(با استفاده از بخش سوم کد)
+
+یک کشمکش طبیعی بین ارائه دهده ی یک رابط و رابط کاربری وجود دارد. ارائه دهندگان بسته ها و بخش سوم کد برای کاربرد گسترده تلاش می کنند تا در خیلی از محیط ها کار کنند و توجه کاربران زیادی را به خود جلب کنند. از طرف دیگر، کار بران می خواهند رابط کار بری متمرکز بر نیاز خاص آنها داشته باشند. این تنش می تواند در مرز سیستم های ما مشکل ایجاد کند.
+به عنوان مثال به java.util.Map نگاه می کنیم.
+همانطور که با بررسی شکل 8-1 مشاهده می کنید ، Map ها دارای یک رابط بسیار گسترده با قابلیت های فراوان هستند. مطمئناً ، این قدرت و انعطاف پذیری مفید است ، اما همچنین می تواند یک مسئولیت باشد. به عنوان مثال ، برنامه ما ممکن است یک نقشه ایجاد کند و آن را به اطراف منتقل کند. قصد ما این است که هیچ یک از گیرندگان نقشه ما چیزی را روی نقشه حذف نکنند. اما دقیقاً در بالای لیست ، متد clear() وجود دارد. هر کاربر از نقشه قدرت پاک کردن آن را دارد. Or maybe our design convention is that only particular
+types of objects can be stored in the Map , but Map s do not reliably constrain the types of
+objects placed within them. Any determined user can add items of any type to any Map .
 
 • clear() void – Map
 • containsKey(Object key) boolean – Map
@@ -101,6 +95,7 @@ of classes, where it is used. Avoid returning it from, or accepting it as an arg
 public APIs.
 
 # Exploring and Learning Boundaries
+
 Third-party code helps us get more functionality delivered in less time. Where do we start
 when we want to utilize some third-party package? It’s not our job to test the third-party
 code, but it may be in our best interest to write tests for the third-party code we use.
@@ -119,10 +114,10 @@ We’re essentially doing controlled experiments that check our understanding of
 The tests focus on what we want out of the API.
 
 # Learning log4j
+
 Let’s say we want to use the apache log4j package rather than our own custom-built log-
 ger. We download it and open the introductory documentation page. Without too much
 reading we write our first test case, expecting it to write “hello” to the console.
-
 
 ```java
 @Test
@@ -173,7 +168,6 @@ A bit more googling, reading, and testing, and we eventually wind up with Listin
 We’ve discovered a great deal about the way that log4j works, and we’ve encoded that
 knowledge into a set of simple unit tests.
 
-
 Listing 8-1
 LogTest.java
 
@@ -212,6 +206,7 @@ that knowledge into our own logger class so that the rest of our application is 
 the log4j boundary interface.
 
 # Learning Tests Are Better Than Free
+
 The learning tests end up costing nothing. We had to learn the API anyway, and writing
 those tests was an easy and isolated way to get that knowledge. The learning tests were
 precise experiments that helped increase our understanding.
@@ -230,6 +225,7 @@ production code does. Without these boundary tests to ease the migration, we mig
 tempted to stay with the old version longer than we should.
 
 # Using Code That Does Not Yet Exist
+
 There is another kind of boundary, one that separates the known from the unknown. There
 are often places in the code where our knowledge seems to drop off the edge. Sometimes
 what is on the other side of the boundary is unknowable (at least right now). Sometimes
@@ -280,16 +276,3 @@ them. We may wrap them as we did with Map, or we may use an ADAPTER to convert f
 our perfect interface to the provided interface. Either way our code speaks to us better,
 promotes internally consistent usage across the boundary, and has fewer maintenance
 points when the third-party code changes.
-
-
-
-
-
-
-
-
-
-
-
- 
- 
