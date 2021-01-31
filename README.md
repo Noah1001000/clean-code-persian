@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <h1 dir="rtl"> ترجمه آزاد کتاب کد تمیز</h1>
 <div dir="rtl">
 <p align="center">
