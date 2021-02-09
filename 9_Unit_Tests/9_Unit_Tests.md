@@ -484,3 +484,7 @@ If you let the tests rot, then your code will rot too. Keep your tests clean.
 
 
 </div>
+
+* [فصل بعد](../10_Classes(completed)/10_Classes.md)
+
+* [فصل قبل](../8_Boundaries/8_Boundaries.md)
