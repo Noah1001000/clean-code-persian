@@ -64,7 +64,7 @@ If we work this way, we will write dozens of tests every day, hundreds of tests 
 month, and thousands of tests every year. If we work this way, those tests will cover virtually all of our production code. The sheer bulk of those tests, which can rival the size of the
 production code itself, can present a daunting management problem.
 
-## Keeping Tests Clean
+## تمیز نگه داشتن تست ها
 Some years back I was asked to coach a team who had explicitly decided that their test
 code should not be maintained to the same standards of quality as their production code.
 They gave each other license to break the rules in their unit tests. “Quick and dirty” was
@@ -110,7 +110,7 @@ The moral of the story is simple: Test code is just as important as production c
 is not a second-class citizen. It requires thought, design, and care. It must be kept as clean
 as production code. 
 
-### Tests Enable the -ilities
+### تست ها توانایی ها را فعال میکنند
 If you don’t keep your tests clean, you will lose them. And without them, you lose the very
 thing that keeps your production code flexible. Yes, you read that correctly. It is unit tests
 that keep our code flexible, maintainable, and reusable. The reason is simple. If you have
@@ -132,7 +132,7 @@ So if your tests are dirty, then your ability to change your code is hampered, a
 begin to lose the ability to improve the structure of that code. The dirtier your tests, the
 dirtier your code becomes. Eventually you lose the tests, and your code rots.
 
-## Clean Tests
+## تست های تمیز
 What makes a clean test? Three things. Readability, readability, and readability. Readability is perhaps even more important in unit tests than it is in production code. What
 makes tests readable? The same thing that makes all code readable: clarity, simplicity,
 and density of expression. In a test you want to say a lot with as few expressions as
@@ -248,7 +248,7 @@ right to the point and use only the data types and functions that they truly nee
 who reads these tests should be able to work out what they do very quickly, without being
 misled or overwhelmed by details.
 
-### Domain-Specific Testing Language
+### زبان مخصوص تست تحت دامنه
 The tests in Listing 9-2 demonstrate the technique of building a domain-specific language
 for your tests. Rather than using the APIs that programmers use to manipulate the system, we build up a set of functions and utilities that make use of those APIs and that
 make the tests more convenient to write and easier to read. These functions and utilities
@@ -259,7 +259,7 @@ This testing API is not designed up front; rather it evolves from the continued 
 refactor Listing 9-1 into Listing 9-2, so too will disciplined developers refactor their test
 code into more succinct and expressive forms.
 
-### A Dual Standard
+### استاندارد دوگانه
 In one sense the team I mentioned at the beginning of this chapter had things right. The
 code within the testing API *does* have a different set of engineering standards than production code. It must still be simple, succinct, and expressive, but it need not be as efficient as
 production code. After all, it runs in a test environment, not a production environment, and
@@ -364,8 +364,8 @@ That is the nature of the dual standard. There are things that you might never d
 production environment that are perfectly fine in a test environment. Usually they involve
 issues of memory or CPU efficiency. But they **never** involve issues of cleanliness. 
 
-## One Assert per Test
-There is a school of thought4 that says that every test function in a JUnit test should have one
+## یک اثبات برای هر تست
+There is a school of thought that says that every test function in a JUnit test should have one
 and only one assert statement. This rule may seem draconian, but the advantage can be seen
 in Listing 9-5. Those tests come to a single conclusion that is quick and easy to understand. 
 
@@ -403,7 +403,7 @@ I think the single assert rule is a good guideline. I usually try to create a do
 more than one assert in a test. I think the best thing we can say is that the number of
 asserts in a test ought to be minimized.
 
-### Single Concept per Text
+### یک مفهوم برای یک متن
 Perhaps a better rule is that we want to test a single concept in each test function. We don’t
 want long test functions that go testing one miscellaneous thing after another. Listing 9-8
 is an example of such a test. This test should be split up into three independent tests
@@ -450,7 +450,7 @@ So it’s not the multiple asserts in each section of Listing 9-8 that causes th
 Rather it is the fact that there is more than one concept being tested. So probably the best
 rule is that you should minimize the number of asserts per concept and test just one concept per test function.
 
-## F.I.R.S.T
+## F.I.R.S.T(اول)
 Clean tests follow five other rules that form the above acronym:
 
 > ***Fast*** Tests should be fast. They should run quickly. When tests run slow, you won’t want
@@ -473,7 +473,7 @@ before the production code that makes them pass. If you write tests after the pr
 code, then you may find the production code to be hard to test. You may decide that some
 production code is too hard to test. You may not design the production code to be testable.
 
-## Conclusion
+## نتیجه گیری
 We have barely scratched the surface of this topic. Indeed, I think an entire book could be
 written about clean tests. Tests are as important to the health of a project as the production
 code is. Perhaps they are even more important, because tests preserve and enhance the
