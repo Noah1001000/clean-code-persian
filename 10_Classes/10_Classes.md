@@ -142,12 +142,9 @@ public class Version {
 ```
 </div>
 
-SRP is one of the more important concept in OO design. It’s also one of the simpler
-concepts to understand and adhere to. Yet oddly, SRP is often the most abused class design
-principle. We regularly encounter classes that do far too many things. Why?
-Getting software to work and making software clean are two very different activities.
-Most of us have limited room in our heads, so we focus on getting our code to work more
-than organization and cleanliness. This is wholly appropriate. Maintaining a separation of
+SRP یکی از مفاهیم مهمتر در طراحی به صورت  (OO design) object oriented  است. همینطور یکی از مفاهیم ساده تر برای درک و پایبند بودن به ان است. با این وجود عجیب است که SRP یکی از قواعد طراحی کلاسی است که از ان  بیشترین سو استفاده میشود.  ما اکثر اوقات با کلاس هایی روبه رو میشویم که کار های زیادی انجام میدهند . چرا؟
+این که کاری کنیم نرمافزار کار کند و تمیز کردن کد نرم افزار دو کار بسیار متفاوت اند.
+اکثر ما اتاق را در سر خود محدود کرده ایم، پس به جای سازماندهی و تمیز کردن ان روی این تمرکز میکنیم که کدمان کار کند.  . این کاملا مناسب است.. Maintaining a separation of
 concerns is just as important in our programming activities as it is in our programs.
 The problem is that too many of us think that we are done once the program works.
 We fail to switch to the other concern of organization and cleanliness. We move on to the
