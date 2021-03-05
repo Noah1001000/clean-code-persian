@@ -1,23 +1,9 @@
 ![](img-8.1.png) 
 
-We seldom control all the software in our systems. Sometimes we buy third-party pack-
-ages or use open source. Other times we depend on teams in our own company to produce
-components or subsystems for us. Somehow we must cleanly integrate this foreign code with our own. In this chapter we look at practices and techniques to keep the boundaries of
-our software clean.
-# Using Third-Party Code
-There is a natural tension between the provider of an interface and the user of an interface.
-Providers of third-party packages and frameworks strive for broad applicability so they
-can work in many environments and appeal to a wide audience. Users, on the other hand,
-want an interface that is focused on their particular needs. This tension can cause problems
-at the boundaries of our systems.
-Let’s look at java.util.Map as an example. As you can see by examining Figure 8-1,
-Maps have a very broad interface with plenty of capabilities. Certainly this power and flexi-
-bility is useful, but it can also be a liability. For instance, our application might build up a
-Map and pass it around. Our intention might be that none of the recipients of our Map delete
-anything in the map. But right there at the top of the list is the clear() method. Any user of
-the Map has the power to clear it. Or maybe our design convention is that only particular
-types of objects can be stored in the Map, but Maps do not reliably constrain the types of
-objects placed within them. Any determined user can add items of any type to any Map.
+ما به ندرت تمام نرم افزارهای موجود در سیستم های خود را کنترل می کنیم. بعضی اوقات ما بسته های نرم افزاری را می خریم یا از کد های اپن سورس استفاده می کنیم. در مواقع دیگر بسته به تیم هایی که در شرکت داریم از آنها میخواهیم تا کامپوننت یا زیر سیستم را برایمان تولید کنند . به نوعی ما باید این کد خارجی را با کد اختصاصی خود ادغام کنیم. در این فصل ما به تمرین ها و تکنیک های برای تمیز نگه داشتن محدوده نرم افزار خود نگاه می اندازیم .
+
+# استفاده از کد های دیگران
+همیشه یک تنش طبیعی بین ارائه دهنده رابط ( interface ) واستفاده کننده ی آن وجود دارد. ارائه دهندگان بسته ها و فریمورک ها سعی دارند کاربردپذیری را افزیش دهند تا کد های آنها در محیط های مختلفی استفاده شده و مخاطبان بیشتری را جذب کنند. از طرف دیگر ، استفاده کنندگان می خواهند رابطی مختص نیازهای خاص خود داشته باشند. این تنش می تواند در محدوده سیستم های ما مشکل ایجاد کند. به عنوان مثال به java.util.Map نگاه کنید . همانطور که با بررسی شکل 8-1 مشاهده می کنید ، Maps دارای یک رابط بسیار گسترده با قابلیت های فراوان است . مطمئناً این قدرت و انعطاف پذیری مفید است ، اما یک دقدقه ایجاد میکند . به عنوان مثال ،ممکن است ما در برنامه یک Map ایجاد کنیم و آن را به مکان های مختلف ارجاع دهیم . هدف ما ممکن است این باشد که هیچ یک از ارجاع دهندگان Map ما چیزی را در آن حذف نکنند. اما دقیقاً در بالای لیست ، متد ()clear وجود دارد. هر کاربری که از Map استفاده میکند قدرت پاک کردن آن را دارد. یا شاید طراحی ما این است که فقط انواع خاصی از اشیا را می توان در نقشه ذخیره کرد ، اما Maps برای نوع خاصی قابل اطمینانی محدود نشده است. همه می تواند هر نوعی را به هر Map ی اضافه کند.
 
 
 • clear() void – Map
@@ -42,24 +28,20 @@ objects placed within them. Any determined user can add items of any type to any
 • wait(long timeout) void – Object
 • wait(long timeout, int nanos) void – Object
 
-If our application needs a Map of Sensors, you might find the sensors set up like this:
+اگر برنامه ما به سنسور از نوع Map احتیاج داشته باشد اینطوری ساخته می شود :
 
 
 ```java
 Map sensors = new HashMap();
 ```
 
-Then, when some other part of the code needs to access the sensor, you see this code:
+سپس ، هنگامی که قسمت دیگری از کد نیاز به دسترسی به سنسور دارد ، این کد را مشاهده می کنید: 
 
 ```java
 Sensor s = (Sensor)sensors.get(sensorId );
 ```
 
-We don’t just see it once, but over and over again throughout the code. The client of this
-code carries the responsibility of getting an Object from the Map and casting it to the right
-type. This works, but it’s not clean code. Also, this code does not tell its story as well as it
-could. The readability of this code can be greatly improved by using generics, as shown
-below:
+نه فقط یک بار ، که بارها آ را در سراسر کد مشاهده می کنیم. سرویس گیرنده این کد مسئولیت دریافت Object از Map و تبدیل آن به نوع صحیح برعهده دارد. این کد کار می کند ، اما کد تمیز نیست. همچنین ، این کد داستان خود را به بهترین شکل ممکن بیان نمی کند. همانطور که در زیر نشان داده شده است ، خوانایی این کد با استفاده از تعریف نوع جنریک بسیار قابل بهبود است:
 
 ```java
 Map<Sensor> sensors = new HashMap<Sensor>();
