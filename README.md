@@ -2,7 +2,7 @@
 <h1 dir="rtl"> ترجمه آزاد کتاب کد تمیز</h1>
 <div dir="rtl">
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXiCLaXo-haziow4z37tTCzYgsOZ2Bc2kJfRoedHtDO5l93LMo"/>
+  <img src="https://octodex.github.com/images/yaktocat
 </p>
  
 این پروژه یک کار گروهی برای ترجمه آزاد یکی از بهترین کتاب های برنامه نویسیه.
