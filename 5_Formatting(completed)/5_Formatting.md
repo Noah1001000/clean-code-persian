@@ -26,7 +26,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/5_Formatting(completed)/img-5.2.png"/>
+  <img src="img-5.2.png"/>
 </p>
 
 <div dir='rtl'>
@@ -322,7 +322,7 @@ public class WikiPageResponder implements SecureResponder {
 </div>
 
 <p align="center">
-  <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/5_Formatting(completed)/img-5.3.png"/>
+  <img src="img-5.3.png"/>
 </p>
 
 <div dir='rtl'>
@@ -368,7 +368,7 @@ public class Assert {
 </div>
 
 <p align="center">
-  <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/5_Formatting(completed)/img-5.4.png"/>
+  <img src="img-5.4.png"/>
 </p>
 
 Java line width distribution
@@ -583,7 +583,7 @@ while (dis.read(buf, 0, readBufferSize) != -1);
 
 </div>
 <p align="center">
-  <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/5_Formatting(completed)/img-5.5.png"/>
+  <img src="img-5.5.png"/>
 </p>
 
 <div dir='rtl'>

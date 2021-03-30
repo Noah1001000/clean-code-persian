@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Noah1001000/clean-code-persian/blob/master/0_introduction(completed)/img-0-1.png"/>
+  <img src="img-0-1.png"/>
 </p>
 
 <div dir='rtl'>
