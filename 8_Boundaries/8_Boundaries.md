@@ -135,6 +135,10 @@ public void testLogCreate() {
 When we run it, the logger produces an error that tells us we need something called an
 Appender. After a little more reading we find that there is a ConsoleAppender. So we create a
 ConsoleAppender and see whether we have unlocked the secrets of logging to the console.
+وقتی آن را اجرا می کنیم ، logger خطایی ایجاد می کند که به ما می گوید ما به چیزی به نام an نیاز داریم
+ضمیمه بعد از کمی مطالعه بیشتر متوجه می شویم که یک ConsoleAppender وجود دارد. بنابراین ما ایجاد می کنیم
+ConsoleAppender و ببینید آیا ما اسرار ورود به سیستم کنسول را باز کرده ایم یا خیر.
+
 
 ```java
 @Test
