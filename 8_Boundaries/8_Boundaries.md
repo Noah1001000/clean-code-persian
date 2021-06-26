@@ -1,9 +1,7 @@
 ![](img-8.1.png) 
 
-We seldom control all the software in our systems. Sometimes we buy third-party pack-
-ages or use open source. Other times we depend on teams in our own company to produce
-components or subsystems for us. Somehow we must cleanly integrate this foreign code with our own. In this chapter we look at practices and techniques to keep the boundaries of
-our software clean.
+ما به ندرت تمام نرم افزار های موجود در سیستم خود را کنترل می کنیم. گاهی اوقات ما بسته های نرم افزاری شخص ثالث را خریداری و یا از نرم افزار های متن باز استفاده  می کنیم. در بقیه موارد ما وابسته به تیم هایی در شرکتمان هستیم تا برایمان اجزا و زیرسیستم ها را تولید کنند. به نوعی ما باید کد هایی که توسط دیگران نوشته شده را خیلی تمیز با کدهای خودمان ادغام کنیم.<br/>
+در این فصل ما به بررسی روش ها و تکنیکی هایی برای تمیز نگه داشتن مرز های نرم افزاری خود میپرذاریم.
 # Using Third-Party Code
 There is a natural tension between the provider of an interface and the user of an interface.
 Providers of third-party packages and frameworks strive for broad applicability so they
@@ -229,7 +227,7 @@ should be supported by a set of outbound tests that exercise the interface the s
 production code does. Without these boundary tests to ease the migration, we might be
 tempted to stay with the old version longer than we should.
 
-# Using Code That Does Not Yet Exist
+# از کدهایی استفاده کنید که تا کنون وجود نداشته اند
 There is another kind of boundary, one that separates the known from the unknown. There
 are often places in the code where our knowledge seems to drop off the edge. Sometimes
 what is on the other side of the boundary is unknowable (at least right now). Sometimes
